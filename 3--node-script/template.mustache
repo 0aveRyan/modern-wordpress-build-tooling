@@ -1,0 +1,25 @@
+<?php
+/**
+ * Plugin Name: {{ name }}
+ * Version: {{ version }}
+ * Author: {{ author }}
+ */
+
+ function dynamic_list() {
+     ?>
+     <ul>
+        <li>Static first item</li>
+    {{#items}}
+        <li><strong>{{title}}</strong>: {{desc}}</li>
+    {{/items}}
+     </ul>
+     <?php
+ }
+
+ function json_data_string() {
+     return {{{jsonString}}};
+ }
+
+ function dynamic_php_array_from_json() {
+     return {{{phpArray}}};
+ }

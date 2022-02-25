@@ -1,0 +1,11 @@
+{
+    "name": "mwbt-bash-script",
+    "version": "1.0.0",
+    "description": "Demo @wordpress/scripts with extension.",
+    "main": "index.js",
+    "scripts": {
+        "bash:script": "bash script.sh"
+    },
+    "author": "Dave Ryan <dryanpress@chat.wordpress.org>",
+    "license": "GPL-3.0"
+}

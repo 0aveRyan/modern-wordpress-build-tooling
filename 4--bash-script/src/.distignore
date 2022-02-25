@@ -1,0 +1,12 @@
+# Directories
+.git
+node_modules
+source
+
+# Files
+.editorconfig
+.distignore
+.npmrc
+
+# File Types
+*.json
