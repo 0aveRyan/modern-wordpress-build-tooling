@@ -1,0 +1,23 @@
+{
+    "name": "mwbt-theme-json-from-js",
+    "version": "1.0.0",
+    "description": "Demo @wordpress/scripts with extension.",
+    "main": "index.js",
+    "scripts": {
+        "theme": "node ./bin.js",
+        "theme-watch": "npm run theme"
+    },
+    "author": "Dave Ryan <dryanpress@chat.wordpress.org>",
+    "license": "GPL-3.0",
+    "devDependencies": {
+        "npm-watch": "^0.11.0"
+    },
+    "watch": {
+        "theme-watch": {
+            "patterns": [
+                "theme"
+            ],
+            "extensions": "js"
+        }
+    }
+}

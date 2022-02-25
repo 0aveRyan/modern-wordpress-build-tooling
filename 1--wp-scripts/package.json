@@ -9,7 +9,9 @@
     "@wordpress/scripts": "^22.0.1"
   },
   "scripts": {
+	  	"prebuild": "echo 'Before the build...'",
     	"build": "wp-scripts build",
+		"postbuild": "echo 'After the build...'",
 		"check-engines": "wp-scripts check-engines",
 		"check-licenses": "wp-scripts check-licenses",
 		"format": "wp-scripts format",

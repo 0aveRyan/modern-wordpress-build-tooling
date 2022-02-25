@@ -6,6 +6,7 @@
         "1--wp-scripts",
         "2--wp-scripts-extended",
         "3--node-script",
-        "4--node-script"
+        "4--node-script",
+        "5--theme-json-from-js"
     ]
 }
