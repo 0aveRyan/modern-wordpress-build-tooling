@@ -44,7 +44,6 @@ Build tools can be daunting, frustrating and a roadblock if you're accustomed to
 * [Official Docs](https://github.com/WordPress/gutenberg/tree/trunk/packages/env)
 * [JSON config referece](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#wp-env-json)
 
-
 ### Misc JavaScript
 * https://github.com/nvm-sh/nvm
 * https://www.npmjs.com/package/cross-env
@@ -55,3 +54,7 @@ Build tools can be daunting, frustrating and a roadblock if you're accustomed to
 ### Composer
 * [Autoloading](https://getcomposer.org/doc/01-basic-usage.md#autoloading)
 * [Scripts](https://getcomposer.org/doc/articles/scripts.md)
+
+### Scaffolding Tool
+* [CLI Command](https://github.com/wp-forge/wp-cli-forge-command)
+* [Templates](https://github.com/wp-forge/scaffolding-templates)
