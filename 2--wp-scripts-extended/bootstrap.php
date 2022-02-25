@@ -1,9 +1,4 @@
 <?php
-/**
- * Plugin Name: WordPress Scripts Demo
- * Author: Dave Ryan
- * License: GPL 3.0
- */
 namespace DaveRyan\BuildDemos;
 
 define('MBTD_VERSION', '1.0.0');
